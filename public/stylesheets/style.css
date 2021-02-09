@@ -6,3 +6,63 @@ body {
 a {
   color: #00B7FF;
 }
+
+.background-color{
+  background-color: #f4f9f9;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding:3px
+}
+
+.column img{
+  height: 150px;
+  
+}
+
+.captions{
+
+  font-size: larger;
+  }
+
+.segment{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.about-image{
+  border-radius: 100%;
+
+}
+.section-style{
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.carousel-item{
+  margin-left:5%;
+  width: auto;
+  /* height:220px; */
+  max-height: 900px;
+
+}
+.carousel-caption{
+  color: black;
+}
+
+.col-image-left{
+  border-radius: 100%;
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+
+.col-image-right{
+  border-radius: 100%;
+  width: 50%;
+  margin-right: 20%;
+  margin-bottom: 20%;
+}
+
