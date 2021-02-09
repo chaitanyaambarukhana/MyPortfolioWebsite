@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -66,3 +65,10 @@ a {
   margin-bottom: 20%;
 }
 
+footer {
+  margin-top: 10%;
+  height: auto;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}

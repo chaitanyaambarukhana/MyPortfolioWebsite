@@ -6,8 +6,13 @@ let router = express.Router();
 router.use(express.urlencoded());
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Home' });
 });
+
+router.get('/home', function(req, res, next) {
+  res.render('index', { title: 'Home' });
+});
+
 
 //about page
 router.get('/about', function(req, res, next) {
