@@ -1,7 +1,7 @@
-const { urlencoded } = require('body-parser');
+
 let express = require('express');
 let router = express.Router();
-// let bodyParser = require("body-parser");
+
 
 router.use(express.urlencoded());
 /* GET home page. */
