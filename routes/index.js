@@ -1,5 +1,6 @@
 
 let express = require('express');
+
 let router = express.Router();
 
 
@@ -36,11 +37,13 @@ router.get('/contact', function(req, res, next) {
 
 router.post('/contact',function(req,res)//post method requested is prcoessed here, redirecting to home page and collecting the name, email and message
 {
- //console.log(req.body.name);
- console.log(req.body.name);
- console.log(req.body.email);
- console.log(req.body.textarea)
- res.redirect("/");
+  
+  console.log(req.body);
+  res.render("contact-success", {title:'Contact',data: req.body});
+
+ 
+
+ 
   
 })
 
