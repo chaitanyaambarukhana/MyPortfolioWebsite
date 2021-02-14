@@ -9,71 +9,66 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
 
-.background-color{
+.background-color {
   background-color: #f4f9f9;
 }
 
-.column{
+.column {
   float: left;
   width: 33.33%;
-  padding:3px
+  padding: 3px;
 }
 
-.column img{
+.column img {
   height: 150px;
-  
 }
 
-.captions{
-
+.captions {
   font-size: larger;
-  }
+}
 
-.container{
+.container {
   margin-top: 2%;
   padding-top: 2%;
 }
-.h2-services{
+.h2-services {
   margin-left: 20%;
   padding-bottom: 10%;
 }
-.segment{
+.segment {
   margin-top: 10%;
   margin-bottom: 10%;
 }
 
-.about-image{
+.about-image {
   border-radius: 100%;
-
 }
-.section-style{
+.section-style {
   padding: 5%;
   margin-top: 5%;
-  
 }
 
-.carousel-item{
-  margin-left:5%;
+.carousel-item {
+  margin-left: 5%;
   width: auto;
   /* height:220px; */
   max-height: 900px;
-
 }
-.carousel-caption{
+.carousel-caption {
   color: black;
 }
 
-.col-image-left{
+.col-image-left {
   border-radius: 100%;
   width: 50%;
   margin-left: 20%;
   margin-bottom: 20%;
 }
 
-.col-image-right{
+.col-image-right {
   border-radius: 100%;
   width: 50%;
   margin-right: 20%;
@@ -88,7 +83,7 @@ footer {
   background-color: black;
 }
 
-.section-contactSuccess{
+.section-contactSuccess {
   padding: 5%;
   margin-top: 5%;
   text-align: center;
