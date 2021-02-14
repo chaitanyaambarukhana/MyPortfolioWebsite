@@ -1,3 +1,9 @@
+/*
+File Name: app.css
+Student Name : Chaitanya Sai Ambarukhana
+Student ID : 301150058
+Date : 14/02/2021  
+*/
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
@@ -26,6 +32,14 @@ a {
   font-size: larger;
   }
 
+.container{
+  margin-top: 2%;
+  padding-top: 2%;
+}
+.h2-services{
+  margin-left: 20%;
+  padding-bottom: 10%;
+}
 .segment{
   margin-top: 10%;
   margin-bottom: 10%;
@@ -72,4 +86,10 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: black;
+}
+
+.section-contactSuccess{
+  padding: 5%;
+  margin-top: 5%;
+  text-align: center;
 }

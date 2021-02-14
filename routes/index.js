@@ -1,4 +1,10 @@
+/* 
+File Name: index.js
+Student Name : Chaitanya Sai Ambarukhana
+Student ID : 301150058
+Date : 14/02/2021  
 
+*/
 let express = require('express');
 
 let router = express.Router();
@@ -7,11 +13,11 @@ let router = express.Router();
 router.use(express.urlencoded());
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Home' });//route to "/"
+  res.render('home', { title: 'Home' });//route to "/"
 });
 
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home' });//route to "/home"
+  res.render('home', { title: 'Home' });//route to "/home"
 });
 
 
